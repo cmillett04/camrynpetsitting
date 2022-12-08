@@ -21,8 +21,8 @@ Ok ya so here we go
 
 * Sub-Pages / ~~__*Spicy*__~~ Text
 	- Look in subpage1.html for the page that u go to for the first learn more, same for second
-	- To make text bold, surround it with strong tags (<strong>BEEF<strong>)
-	- To make text italics, surround it with em tags (<em>beef</em>)
+	- To make text bold, surround it with strong tags (\<strong\>BEEF\<\/strong\>)
+	- To make text italics, surround it with em tags (\<em\>beef\<\/em\>)
 	- Anything else, look up or ask the beef
 
-I even think that's it for now! Lmk if u have questions <3
+I even think that's it for now! Lmk if u have questions :heart::heart::heart:
