@@ -10,6 +10,38 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+		  .collapsible {
+		    position: relative;
+		    overflow: hidden;
+		    padding-bottom: 0.5em;
+		    transition: height 0.5s ease-out;
+		  }
+		  .collapsible > * {
+		    display: none;
+		  }
+		  .collapsible > p:first-child,
+		  .collapsible.open > *,
+		  .collapsible.ready > * {
+		    display: revert;
+		  }
+
+		  .collapsible > .toggler {
+		    position: absolute;
+		    left: 0;
+		    bottom: 0;
+		    width: 100%;
+		    background: #fff;
+		    text-align: center;
+		    cursor: pointer;
+		  }
+		  .collapsible > .toggler::after {
+		    content: "\25bc";
+		  }
+		  .collapsible.open > .toggler::after {
+		    content: "\25b2";
+		  }
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -32,39 +64,8 @@
 							<h2>About me!</h2>
 						</header>
 						<h5>Loving, Caring, and Responsible!</h5>
-						<style>
-						  .collapsible.slow {
-						    position: relative;
-						    overflow: hidden;
-						    padding-bottom: 0.5em;
-						    transition: height 0.5s ease-out;
-						  }
-						  .collapsible.slow > * {
-						    display: none;
-						  }
-						  .collapsible.slow > p:first-child,
-						  .collapsible.slow.open > *,
-						  .collapsible.slow.ready > * {
-						    display: revert;
-						  }
-
-						  .collapsible.slow > .toggler {
-						    position: absolute;
-						    left: 0;
-						    bottom: 0;
-						    width: 100%;
-						    background: #fff;
-						    text-align: center;
-						    cursor: pointer;
-						  }
-						  .collapsible.slow > .toggler::after {
-						    content: "\25bc";
-						  }
-						  .collapsible.slow.open > .toggler::after {
-						    content: "\25b2";
-						  }
-						</style>
-						<div class="collapsible.slow">
+						
+						<div class="collapsible">
 							<p>Hi! My name is Camryn, and I am a responsible and energetic pet lover. I have taken care of 2 dogs of my own throughout my life (Ralph- a shar pei and pug mix and Leonard- a black lab puppy), as well as my bunny and chickens. I have been a pet sitter / dog walker for over a year on Rover, but before that I had also taken care of the pets of many friends and family members while they were away. I will care for pets of all different types, ages, and sizes! I love spending time with animals and would love to give your pet the care and attention they need while you are away. Whatever preferences you have for your pet, I am happy to care for your pet in the same way you do. My experience with and love for animals make me a great candidate for pet-sitting or walking. Hoping to meet and care for your pet soon!</p>
 							<p>Generally, on Mondays, Wednesdays, and Friday, I am available anytime before 9:00am or after 5pm. On Tuesdays and Thursdays, I am available after 3pm, and anytime on the weekends. However, my weekday schedule can be relatively flexible for things like drop-in visits and walks, so please feel free to reach out and ask about the particular times/dates you need. I am also available to stay overnight with your pets if needed.</p>
 							<p>As a college student, I unfortunately do not have the ability to pet sit in my own apartment. However, I am available to house and pet sit at your house or apartment during the day or overnight and make visits as needed.</p>
