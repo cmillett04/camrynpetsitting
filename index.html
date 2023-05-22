@@ -176,7 +176,7 @@
 			<script src="assets/js/main.js"></script>
 			<script>
 			  const getContainerHeight = (el) => window.getComputedStyle(el).getPropertyValue("height");
-			  document.querySelectorAll(".collapsible.slow").forEach(current => {
+			  document.querySelectorAll(".collapsible").forEach(current => {
 			    let toggler = document.createElement("div");
 			    toggler.className = "toggler";
 			    current.appendChild(toggler);
