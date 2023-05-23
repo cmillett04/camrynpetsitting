@@ -131,13 +131,13 @@
 						<p>Please let me know any important specifics about your dog, such as if they have any allergies, how often they need to be let out/walked, his or her age and breed.</p>
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form method="post" action="mailto:cmillett04@gmail.com?subject=Website_Email">
+								<form method="get" action="mailto:cmillett04@gmail.com" enctype="text/plain">
 									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall"><input type="text" name="subject" id="name" placeholder="Name" /></div>
 										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+										<div class="col-12"><textarea name="body" id="message" placeholder="Message" rows="4"></textarea></div>
 									</div>
-									<ul class="actions">
+									<ul class="actions" style="margin-top: 4px;">
 										<li><input type="submit" value="Send Message" /></li>
 									</ul>
 								</form>
